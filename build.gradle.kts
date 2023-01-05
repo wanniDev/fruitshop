@@ -29,6 +29,10 @@ dependencies {
     runtimeOnly("com.h2database:h2")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    // https://mvnrepository.com/artifact/org.web3j/core
+    implementation("org.web3j:core:5.0.0")
+
 }
 
 tasks.withType<KotlinCompile> {
