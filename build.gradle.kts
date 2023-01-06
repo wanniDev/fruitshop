@@ -30,8 +30,10 @@ dependencies {
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 
-    // https://mvnrepository.com/artifact/org.web3j/core
-    implementation("org.web3j:core:5.0.0")
+    implementation("org.web3j:web3j-spring-boot-starter:1.6.0")
+
+    // https://mvnrepository.com/artifact/io.reactivex.rxjava2/rxjava
+    implementation("io.reactivex:rxjava:1.3.8")
 
 }
 
