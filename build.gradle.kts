@@ -33,6 +33,9 @@ dependencies {
     // https://mvnrepository.com/artifact/org.web3j/core
     implementation("org.web3j:core:5.0.0")
 
+    // jpa
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+
 }
 
 tasks.withType<KotlinCompile> {
