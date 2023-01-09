@@ -9,6 +9,6 @@ import org.web3j.protocol.http.HttpService
 class ContractConfig {
     @Bean
     fun web3j(): Web3j {
-        return Web3j.build(HttpService())
+        return Web3j.build(HttpService("http://localhost:8588"))
     }
 }
